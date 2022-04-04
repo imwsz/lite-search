@@ -1,0 +1,288 @@
+
+{
+	"sideBar": {
+		"content": [{
+			"name": "常用网址",
+			"value": "Website",
+			"icon": "./img/website.svg",
+			"color": "#1B813E",
+			"show": true,
+			"content": [{
+					"name": "外网",
+					"value": "wangluo",
+					"icon": "./img/icon/wangluo.svg",
+					"color": "",
+					"show": true,
+					"content": [{
+							"name": "谷歌镜像",
+							"url": "https://ac.scmor.com/",
+							"icon": "google",
+							"color": "#ff5c38",
+							"show": true
+						},
+						{
+							"name": "谷歌学术",
+							"url": "https://sc.panda321.com/",
+							"icon": "scholar",
+							"color": "#24a5ff",
+							"show": true
+						},
+						{
+							"name": "爱科研",
+							"url": "https://i-research.edu.eu.org/",
+							"icon": "reserach",
+							"color": "#00be06",
+							"show": true
+						},
+						{
+							"name": "思谷学术",
+							"url": "https://siguso.com/google/",
+							"icon": "xuesshu",
+							"color": "#fb7299",
+							"show": true
+						},
+						{
+							"name": "网站代理",
+							"url": "https://proxy.netptop.com/",
+							"icon": "daili",
+							"color": "#fd4c5d",
+							"show": true
+						},
+						{
+							"name": "维基百科",
+							"url": "https://www.jinzhao.wiki/",
+							"icon": "wiki",
+							"color": "#2aeb35",
+							"show": true
+						}
+					]
+				},
+				{
+					"name": "工具",
+					"value": "tool",
+					"icon": "./img/icon/tool.svg",
+					"color": "",
+					"show": true,
+					"content": [{
+							"name": "QQ邮箱",
+							"url": "https://mail.qq.com/",
+							"icon": "mailqq",
+							"color": "#c1d9f3",
+							"show": true
+						},
+						{
+							"name": "百度翻译",
+							"url": "https://fanyi.baidu.com/",
+							"icon": "baiduyi",
+							"color": "#a7945d",
+							"show": true
+						},
+						{
+							"name": "谷歌翻译",
+							"url": "https://translate.google.cn/?hl=zh-CN",
+							"icon": "gugeyi",
+							"color": "#749367",
+							"show": true
+						},
+						{
+							"name": "ping",
+							"url": "https://ping.chinaz.com/",
+							"icon": "ping",
+							"color": "#4f2045",
+							"show": true
+						},
+						{
+							"name": "免费图库",
+							"url": "https://pixabay.com/zh/",
+							"icon": "pixbay",
+							"color": "#4f2045",
+							"show": true
+						},
+						{
+							"name": "MSDN",
+							"url": "https://msdn.itellyou.cn/",
+							"icon": "itellyou",
+							"color": "#ea0567",
+							"show": true
+						},
+						{
+							"name": "APK下载",
+							"url": "https://apkdl.in/",
+							"icon": "apkdl",
+							"color": "#74d297",
+							"show": true
+						},
+						{
+							"name": "酷安",
+							"url": "https://www.coolapk.com/apk/",
+							"icon": "coolapk",
+							"color": "#6db39d",
+							"show": true
+						}
+					]
+				},
+				{
+					"name": "开发",
+					"value": "study",
+					"icon": "./img/icon/kongzhitai.svg",
+					"color": "",
+					"show": true,
+					"content": [{
+							"name": "GitHub",
+							"url": "https://github.com/",
+							"icon": "github",
+							"color": "#24292E",
+							"show": true
+						},
+						{
+							"name": "Gitee",
+							"url": "https://gitee.com/",
+							"icon": "gitee",
+							"color": "#C71D23",
+							"show": true
+						},
+						{
+							"name": "工具箱",
+							"url": "https://tool.lu/",
+							"icon": "tool",
+							"color": "#2FB45A",
+							"show": true
+						},
+						{
+							"name": "阿里图标",
+							"url": "https://www.iconfont.cn/",
+							"icon": "iconfont",
+							"color": "#9A744E",
+							"show": true
+						},
+						{
+							"name": "TinyPNG",
+							"url": "https://tinify.cn/",
+							"icon": "tinify",
+							"color": "#C12127",
+							"show": true
+						},
+						{
+							"name": "站长工具",
+							"url": "http://tool.chinaz.com/",
+							"icon": "chinaz",
+							"color": "#41B883",
+							"show": true
+						},
+						{
+							"name": "W3School",
+							"url": "https://www.w3school.com.cn/",
+							"icon": "w3school",
+							"color": "#C34244",
+							"show": true
+						},
+						{
+							"name": "腾讯云",
+							"url": "https://cloud.tencent.com/",
+							"icon": "txyun",
+							"color": "#83DB40",
+							"show": true
+						},
+						{
+							"name": "阿里云",
+							"url": "https://www.aliyun.com/",
+							"icon": "aliyun",
+							"color": "#FF6A00",
+							"show": true
+						}
+					]
+				}
+			]
+		}, {
+			"name": "个性设置",
+			"value": "Setting",
+			"icon": "./img/setting.svg",
+			"color": "#1B813E",
+			"show": true,
+			"content": [{
+				"name": "背景",
+				"value": "changebg",
+				"href": "",
+				"color": "#cbcbcb",
+				"icon": "./img/setbg.svg",
+				"show": true,
+				"content": [{
+					"name": "设置背景图片",
+					"type": "changebg",
+					"value": "changebg",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}, {
+					"name": "必应壁纸",
+					"type": "changebg",
+					"value": "setBingImage",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}]
+			}, {
+				"name": "标签",
+				"value": "commonUse",
+				"href": "",
+				"color": "",
+				"icon": "./img/setbq.svg",
+				"show": true,
+				"content": [{
+					"name": "开启",
+					"value": "website_open",
+					"type": "changeCommonUse",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}, {
+					"name": "关闭",
+					"value": "website_close",
+					"type": "changeCommonUse",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}]
+			}, {
+				"name": "数据管理",
+				"value": "dataManagement",
+				"href": "",
+				"color": "",
+				"icon": "./img/setdata.svg",
+				"show": true,
+				"content": [{
+					"name": "常用标签",
+					"value": "commonUseData",
+					"type": "dataManagement",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}, {
+					"name": "常用网址",
+					"value": "sidebarData",
+					"type": "dataManagement",
+					"href": "",
+					"color": "",
+					"icon": "",
+					"show": true,
+					"content": ""
+				}]
+			}]
+		}]
+	},
+	"copyright": {
+		"href": "https://imno.cn/",
+		"show": false,
+		"content": "©#before#-#after# by #author#. All rights reserved."
+	}
+}

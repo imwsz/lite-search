@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+		<meta content="no-siteapp" http-equiv="Cache-Control">
+		<title>轻导航</title>
+		<meta content="主页 - 极简多引擎搜索" name="description" />
+		<meta content="简洁搜索,极简搜索,简洁导航" name="keywords" />
+		<meta content="img/favcion.svg" name="msapplication-TileImage" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="yes" name="full-screen">
+		<meta content="application" name="browsermode">
+		<meta content="true" name="x5-fullscreen">
+		<meta content="app" name="x5-page-mode">
+		<link href="img/favcion.svg" rel="icon" sizes="192x192" />
+		<link href="img/favcion.svg" rel="apple-touch-icon-precomposed" />
+		<link href="img/favcion.svg" rel="shortcut icon" />
+		<link href="img/favcion.svg" rel="shortcut icon" />
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/common.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="content">
+		    <br><br><br><br>
+			<div class="con">
+				<div class="shlogo"></div>
+				<section class="sousuo">
+					<div class="search">
+						<div class="search-box">
+							<i id="search-icon" style="color: #3385ff;background: url(./img/so/baidu.svg) no-repeat center/cover;"></i>
+							<input autocomplete="off" class="search-input" id="txt" placeholder="请输入搜索关键字" type="text" />
+							<input id="search-clear" style="background: url(./img/clear.svg) no-repeat center/cover;display: none;" />
+							<button class="search-btn"></button>
+						</div>
+						<!-- 搜索热词 -->
+						<div class="box search-hot-text" id="box" style="display: none;">
+							<ul></ul>
+						</div>
+						<!-- 搜索引擎 -->
+						<div class="search-engine" style="display: none;">
+							<div class="search-engine-head">
+								<strong class="search-engine-tit">选择搜索引擎：</strong>
+								<div class="search-engine-tool">搜索热词：
+									<span id="hot-btn"></span>
+								</div>
+							</div>
+							<ul class="search-engine-list"></ul>
+						</div>
+				</section>
+				<!--自定义网址-->
+				<div id="commonUse"></div>
+				<!--侧边栏-->
+				<div id="sideBarButton"><img src="img/openMenu.svg"></div>
+				<div id="sideBar">
+					<div id="sideBarContent">
+						<div id="sideBarTitle"></div>
+						<div id="scrollContent"></div>
+					</div>
+				</div>
+				<!--加载动画-->
+				<!--<div id="loading">-->
+					<div class="pic">
+						<i></i>
+						<i></i>
+						<i></i>
+						<i></i>
+						<i></i>
+					</div>
+				</div>
+				<!--消息弹窗提示-->
+				<ul id="messageList"></ul>
+			</div>
+		</div>
+		<!--版权声明-->
+		<div id="copyright"></div>
+		<!--天气服务-->
+		<div class="mywth" id="tp-weather-widget"></div>
+		<script>
+			(function(a, h, g, f, e, d, c, b) {
+				b = function() {
+					d = h.createElement(g);
+					c = h.getElementsByTagName(g)[0];
+					d.src = e;
+					d.charset = "utf-8";
+					d.async = 1;
+					c
+						.parentNode
+						.insertBefore(d, c)
+				};
+				a["SeniverseWeatherWidgetObject"] = f;
+				a[f] || (a[f] = function() {
+					(a[f].q = a[f].q || []).push(arguments)
+				});
+				a[f].l = +new Date();
+				if (a.attachEvent) {
+					a.attachEvent("onload", b)
+				} else {
+					a.addEventListener("load", b, false)
+				}
+			}(
+				window,
+				document,
+				"script",
+				"SeniverseWeatherWidget",
+				"//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)
+			));
+			window.SeniverseWeatherWidget('show', {
+				flavor: "slim",
+				location: "WX4FBXXFKE4F",
+				geolocation: true,
+				language: "auto",
+				unit: "c",
+				theme: "light",
+				token: "9001d4ec-2be3-43fc-9a16-abf98f1deaf9",
+				hover: "enabled",
+				container: "tp-weather-widget"
+			})
+		</script>
+	</body>
+	<script src="./js/main.js"></script>
+	<script src="./js/common.js"></script>
+</html>
